@@ -1,0 +1,27 @@
+{
+  "name": "dispensapi",
+  "version": "1.0.0",
+  "description": "A DispensAPI é uma aplicação que gerencia os itens da dispensa de uma casa. Após a compra mensal de suprimentos, uma família armazena suas compras em sua dispensa. Para saber se o que foi comprado será o suficiente para seu sustento durante um mês a família fará o controle do seu consumo pelo DispensAPI. Cada movimentação na dispensa como: cadastro de novos itens, alteração de informações dos itens cadastrados ou exclusão será feita pelo CRUD da API.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessica-mss/reprograma-dispensAPI.git"
+  },
+  "author": "Jessica Marques",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessica-mss/reprograma-dispensAPI/issues"
+  },
+  "homepage": "https://github.com/jessica-mss/reprograma-dispensAPI#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.2",
+    "nodemon": "^2.0.12"
+  }
+}
