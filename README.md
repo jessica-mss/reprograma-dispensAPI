@@ -7,3 +7,11 @@ A DispensAPI é uma aplicação que gerencia os itens da dispensa de uma casa. A
 ## Demandas de Negócio
 - [ ]  **"/dispensa/home"** Deverá a página inicial do projeto;
 - [ ]  **"/dispensa"** Deverá retornar todos os produtos da dispensa;
+- [ ]  **"/dispensa/adicionar"** Deverá criar um produto na dispensa;
+- [ ]  **"/dispensa/atualizar/[ID]"** Deverá atualizar uma informação específica em um produto que já existe dispensa de acordo com o ID informado;
+- [ ]  **"/dispensa/excluir/[ID]"** Deverá excluir um produto da dispensa de acordo com o ID informado e retornar uma mensagem de sucesso;
+- [ ]  **"/dispensa/categorias/todas"** Deverá retornar todas as categorias cadastradas;
+- [ ]  **"/dispensa/categorias/filtro/[ID]"** Deverá retornar a categoria de acordo com o ID informado;
+- [ ]  **"/dispensa/categorias/cadastrar"** Deverá criar uma nova categoria;
+- [ ]  **"/dispensa/categorias//atualizar/[ID]"** Deverá atualizar uma informação específica na categoria informada pelo Id.
+- [ ]  **"/dispensa/categorias/excluir/[ID]"** Deverá excluir a categoria de acordo com o ID informado e retornar uma mensagem de sucesso;
