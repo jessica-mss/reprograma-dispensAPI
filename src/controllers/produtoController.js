@@ -57,7 +57,7 @@ const updateProduto = async (req, res) => {
         if (req.body.dataDaCompra != null) {
             produto.dataDaCompra = req.body.dataDaCompra
         }         
-        const categoriaAtualizada = await categoria.save()
+        const categoriaAtualizada = await Produto.save()
         res.json(categoriaAtualizada)
 
     } catch (error) {
